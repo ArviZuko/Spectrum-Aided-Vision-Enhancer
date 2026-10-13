@@ -1,0 +1,4 @@
+# Downloaded release assets are restored in place, outside regular Git history.
+*.download
+__pycache__/
+.DS_Store
