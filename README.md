@@ -35,6 +35,7 @@ SRC/
   Latest_NBI/             later calibration, conversion, and evaluation notebooks
   SAVE/                   lookup-table generation and SAVE notebooks/assets
 Models/
+  README.md              links to downloadable model families not in Git
   Bladder Cancer/         selected classification models
   Endoscopic Images/      selected endoscopic-image classifiers
   Esophageal Cancer/      selected classification and detection models
@@ -59,7 +60,7 @@ To keep a browsable repository, this upload favors compact model folders. Direct
 | Other skin lesions (`BCC, SCC, SK, AK`) | `Classification/rf`, `logistic regression`, `sgd_svm` |
 | Kvasir ulcer | `yolov8n-cls.pt`, `efficientnetB2.h5`, `Model.keras`, plus notebooks |
 
-Where a selected folder contains both **WLI** and **SAVE** versions, both are retained. The `Models/Glaucoma/` folder contains images and spreadsheets rather than trained weights. All other model folders were omitted from this curated upload; in particular, several SVM weights in the original folder are individually about 5–8 GB.
+Where a selected folder contains both **WLI** and **SAVE** versions, both are retained. The `Models/Glaucoma/` folder contains images and spreadsheets rather than trained weights. The other model families are available as separate ZIP downloads: browse the [additional-model index](Models/README.md), open a model's folder README, and follow its download and extraction instructions. Several original SVM weights are individually about 5–8 GB, so their archives are split into smaller Release assets.
 
 Model formats vary (`.pt`, `.pth`, `.pkl`, `.h5`, `.keras`). Use the notebook in the relevant model folder to see that experiment's preprocessing, labels, and framework. There is no single loader or common input contract for every model.
 
