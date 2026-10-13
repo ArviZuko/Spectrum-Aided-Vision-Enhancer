@@ -2,7 +2,7 @@
 
 SAVE is a research project for turning a conventional **white-light image (WLI)** into a simulated **narrow-band-imaging-like image** and using both views in computer-aided image analysis. The project combines spectral reconstruction and color calibration with classification and detection experiments for endoscopic, bladder, and skin images. It also includes two Windows desktop applications that display the original video, the SAVE conversion, and model output side by side.
 
-This repository is a **curated subset** of the original `SAVE` folder. The full application, documentation, and spectral-processing source directories are here; selected smaller model families are included for each study group. Some files are distributed through a GitHub Release because they exceed Git's per-file limit.
+This repository is a **curated subset** of the original `SAVE` folder. The application, documentation, and spectral-processing source directories are represented here; selected smaller model families are included for each study group. Files over GitHub's regular Git limit are available separately in a [Release](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/tag/v1.0-large-files).
 
 ## Idea and novelty
 
@@ -24,12 +24,12 @@ Applications/
   Classification App/
     Source Code/          PyQt application source and local assets
     Dependency App/       packaged Windows application and dependencies
-    Installer/            Windows installer (restored from Release)
+    Installer/            download link for the Windows installer
   Detection App/          same structure for object detection
 Documentation/
   SAVE.docx               method and evaluation write-up
   SAVE PPT.pptx           experiment overview and results
-  Video.mp4               demonstration (restored from Release)
+  Video.mp4               demonstration (download from Release)
 SRC/
   NBI/                    spectral/color-transfer notebooks and scripts
   Latest_NBI/             later calibration, conversion, and evaluation notebooks
@@ -41,8 +41,6 @@ Models/
   Skin Cancer/            selected lesion and cancer model groups
   Kvasir/                 three compact ulcer-model weights and notebooks
   Glaucoma/               image/spreadsheet collection (no saved model weights)
-large-files.json          original paths, sizes, and SHA-256 hashes for Release files
-restore_large_files.py    downloads and verifies those files
 ```
 
 The [`SRC/NBI`](SRC/NBI), [`SRC/Latest_NBI`](SRC/Latest_NBI), and [`SRC/SAVE`](SRC/SAVE) directories contain exploratory notebooks rather than one packaged training pipeline. Some notebooks and scripts reference paths from the original research machines, so update those paths and install the imports used by the notebook before rerunning an experiment.
@@ -67,26 +65,34 @@ Model formats vary (`.pt`, `.pth`, `.pkl`, `.h5`, `.keras`). Use the notebook in
 
 ## Get the files
 
-Clone the repository, then restore the 11 files stored in the [large-files Release](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/tag/v1.0-large-files):
+Clone the repository with `git clone https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer.git`. GitHub does not include the 11 oversized files in the clone. Download any files you need from the [large-files Release](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/tag/v1.0-large-files) and place them at the paths below. The two installer folders contain direct download links to their installers.
 
-```bash
-git clone https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer.git
-cd Spectrum-Aided-Vision-Enhancer
-python restore_large_files.py
-```
+| Release asset | Original path in this project |
+| --- | --- |
+| `Classification-App-best.pt` | `Applications/Classification App/Dependency App/best.pt` |
+| `Classification-App-best.pt.encrypted` | `Applications/Classification App/Dependency App/best.pt.encrypted` |
+| `Classification-App-internal-best.pt.encrypted` | `Applications/Classification App/Dependency App/_internal/best.pt.encrypted` |
+| `Classification-App-torch_cpu.dll` | `Applications/Classification App/Dependency App/_internal/torch/lib/torch_cpu.dll` |
+| [Classification installer](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/SAVE_Classification_App_Installer.exe) | `Applications/Classification App/Installer/SAVE_Classification_App_Installer.exe` |
+| `Detection-App-torch_cpu.dll` | `Applications/Detection App/Dependency App/_internal/torch/lib/torch_cpu.dll` |
+| [Detection installer](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/SAVE_Detection_App_Installer.exe) | `Applications/Detection App/Installer/SAVE_Detection_App_Installer.exe` |
+| `SAVE_Demo_Video.mp4` | `Documentation/Video.mp4` |
+| `Endoscopic-Augmented-LR-model.pkl` | `Models/Endoscopic Images/Augumented/LR/logistic_regression_model.pkl` |
+| `Endoscopic-Logistic-Regression-model.pkl` | `Models/Endoscopic Images/Logistic Regression/logistic_regression_model.pkl` |
+| `SRC-SAVE-nor_wli_nbi_table.npy` | `SRC/SAVE/nor_wli_nbi_table.npy` |
 
-The restore script requires **Python 3.9+**, downloads each asset to its original relative path, and checks its size and SHA-256 hash against [`large-files.json`](large-files.json). It is safe to rerun: already verified files are skipped. Use `python restore_large_files.py --root PATH` to restore into another checkout. Allow roughly 2.3 GB of extra space for the Release files. No Git LFS setup is needed.
+The Release assets total about 2.3 GB. No Git LFS setup is needed.
 
 ## Use the applications
 
-On Windows, after restoring the Release files, start either packaged application from its own `Dependency App` directory:
+On Windows, either download the [classification installer](Applications/Classification%20App/Installer/README.md) or [detection installer](Applications/Detection%20App/Installer/README.md), or download the applicable large dependencies from the table above and start the packaged application from its own `Dependency App` directory:
 
 ```powershell
 cd "Applications\Classification App\Dependency App"
 .\App.exe
 ```
 
-For detection, use `Applications\Detection App\Dependency App` in the same way. The interfaces provide **Load Video**, **Start Camera**, **Pause**, and **Save** controls; the classification app also provides **Load Image Folder** and a result summary. The apps use files relative to the current working directory, including the conversion table and encrypted model. They prompt for the model password, which is **not included in this repository**. The Windows installers are under each app's `Installer/` folder after restoration.
+For detection, use `Applications\Detection App\Dependency App` in the same way. The interfaces provide **Load Video**, **Start Camera**, **Pause**, and **Save** controls; the classification app also provides **Load Image Folder** and a result summary. The apps use files relative to the current working directory, including the conversion table and encrypted model. They prompt for the model password, which is **not included in this repository**. The installers have not been independently tested as part of this upload.
 
 The editable PyQt entry points are [`Classification App/Source Code/App.py`](Applications/Classification%20App/Source%20Code/App.py) and [`Detection App/Source Code/App.py`](Applications/Detection%20App/Source%20Code/App.py). To run them from source, use an environment with the imports shown in those files (including OpenCV, NumPy, PyTorch, Ultralytics, Numba, and PyQt5), run from the relevant `Source Code` directory, and supply the model password. No pinned dependency or installation file is supplied, so source setup may require adapting versions and paths.
 
