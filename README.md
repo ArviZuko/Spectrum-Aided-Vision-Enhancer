@@ -41,7 +41,6 @@ Models/
   Esophageal Cancer/      selected classification and detection models
   Skin Cancer/            selected lesion and cancer model groups
   Kvasir/                 three compact ulcer-model weights and notebooks
-  Glaucoma/               image/spreadsheet collection (no saved model weights)
 ```
 
 The [`SRC/NBI`](SRC/NBI), [`SRC/Latest_NBI`](SRC/Latest_NBI), and [`SRC/SAVE`](SRC/SAVE) directories contain exploratory notebooks rather than one packaged training pipeline. Some notebooks and scripts reference paths from the original research machines, so update those paths and install the imports used by the notebook before rerunning an experiment.
@@ -60,7 +59,7 @@ To keep a browsable repository, this upload favors compact model folders. Direct
 | Other skin lesions (`BCC, SCC, SK, AK`) | `Classification/rf`, `logistic regression`, `sgd_svm` |
 | Kvasir ulcer | `yolov8n-cls.pt`, `efficientnetB2.h5`, `Model.keras`, plus notebooks |
 
-Where a selected folder contains both **WLI** and **SAVE** versions, both are retained. The `Models/Glaucoma/` folder contains images and spreadsheets rather than trained weights. The other model families are available as separate ZIP downloads: browse the [additional-model index](Models/README.md), open a model's folder README, and follow its download and extraction instructions. Several original SVM weights are individually about 5–8 GB, so their archives are split into smaller Release assets.
+Where a selected folder contains both **WLI** and **SAVE** versions, both are retained. The other model families are available as separate ZIP downloads: browse the [additional-model index](Models/README.md), open a model's folder README, and follow its download and extraction instructions. Several original SVM weights are individually about 5–8 GB, so their archives are split into smaller Release assets.
 
 Model formats vary (`.pt`, `.pth`, `.pkl`, `.h5`, `.keras`). Use the notebook in the relevant model folder to see that experiment's preprocessing, labels, and framework. There is no single loader or common input contract for every model.
 
