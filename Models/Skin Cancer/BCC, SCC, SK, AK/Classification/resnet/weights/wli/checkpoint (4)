@@ -1,0 +1,2 @@
+model_checkpoint_path: "resnet_wli_weights"
+all_model_checkpoint_paths: "resnet_wli_weights"

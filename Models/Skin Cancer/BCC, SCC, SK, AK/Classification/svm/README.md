@@ -1,5 +1,10 @@
 # svm
 
+Files within the GitHub LFS size limit are now restored in their original locations. The following originals remain in Releases because they exceed the per-file limit:
+
+- Models/Skin Cancer/BCC, SCC, SK, AK/Classification/svm/weights/wli/svm_wli2_weights.joblib (6851815325 bytes)
+
+
 This folder points to the remaining files for `Skin Cancer/BCC, SCC, SK, AK/Classification/svm` from the original SAVE project. The package contains **3 files** (6.38 GiB before compression). It is stored in the [remaining-models Release](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/tag/v1.1-remaining-models) because it was not included in the curated Git tree.
 
 ## Download

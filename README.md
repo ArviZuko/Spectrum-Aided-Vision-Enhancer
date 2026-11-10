@@ -2,7 +2,7 @@
 
 SAVE is a research project for turning a conventional **white-light image (WLI)** into a simulated **narrow-band-imaging-like image** and using both views in computer-aided image analysis. The project combines spectral reconstruction and color calibration with classification and detection experiments for endoscopic, bladder, and skin images. It also includes two Windows desktop applications that display the original video, the SAVE conversion, and model output side by side.
 
-This repository is a **curated subset** of the original `SAVE` folder. The application, documentation, and spectral-processing source directories are represented here; selected smaller model families are included for each study group. Files over GitHub's regular Git limit are available separately in a [Release](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/tag/v1.0-large-files).
+This repository preserves the supplied applications, documentation, spectral-processing sources, and model artifacts. Release-hosted artifacts that fit GitHub's per-file LFS limit are restored to their original folders, with large files stored through Git LFS. Oversized originals remain available in Releases; see the [model index](Models/README.md) for their download instructions.
 
 ## Idea and novelty
 
@@ -24,68 +24,49 @@ Applications/
   Classification App/
     Source Code/          PyQt application source and local assets
     Dependency App/       packaged Windows application and dependencies
-    Installer/            download link for the Windows installer
+    Installer/            Windows installer (Git LFS)
   Detection App/          same structure for object detection
 Documentation/
   SAVE.docx               method and evaluation write-up
   SAVE PPT.pptx           experiment overview and results
-  Video.mp4               demonstration (download from Release)
+  Video.mp4               demonstration (Git LFS)
 SRC/
   NBI/                    spectral/color-transfer notebooks and scripts
   Latest_NBI/             later calibration, conversion, and evaluation notebooks
   SAVE/                   lookup-table generation and SAVE notebooks/assets
 Models/
-  README.md              links to downloadable model families not in Git
-  Bladder Cancer/         selected classification models
-  Endoscopic Images/      selected endoscopic-image classifiers
-  Esophageal Cancer/      selected classification and detection models
-  Skin Cancer/            selected lesion and cancer model groups
-  Kvasir/                 three compact ulcer-model weights and notebooks
+  README.md              model information and oversized-file download notes
+  Bladder Cancer/         classification models
+  Endoscopic Images/      endoscopic-image classifiers
+  Esophageal Cancer/      classification and detection models
+  Skin Cancer/            lesion and cancer model groups
+  Kvasir/                 ulcer-model weights and notebooks
 ```
 
 The [`SRC/NBI`](SRC/NBI), [`SRC/Latest_NBI`](SRC/Latest_NBI), and [`SRC/SAVE`](SRC/SAVE) directories contain exploratory notebooks rather than one packaged training pipeline. Some notebooks and scripts reference paths from the original research machines, so update those paths and install the imports used by the notebook before rerunning an experiment.
 
-## Included model selection
+## Model artifacts
 
-To keep a browsable repository, this upload favors compact model folders. Directory names below match the supplied project, including its spelling.
-
-| Study group | Included model folders or weights |
-| --- | --- |
-| Bladder cancer | `GOOGLNET`, `YOLOV5`, `RESNET34` |
-| Endoscopic images | `Inception_V3`, `Logistic Regression`, `Augumented` |
-| Esophageal cancer | `Classification/RF`, `Classification/MobileNetV2`, `Detection/Yolov8` |
-| Skin lesions (`Acrodon`) | `YoloV10`, `YoloV5`, `YoloV8` |
-| Melanoma (`ALM, MIS, SSM`) | `Classification/SGD_Resnet 34`, `inception-xgb`, `resnet34-lightgbm` |
-| Other skin lesions (`BCC, SCC, SK, AK`) | `Classification/rf`, `logistic regression`, `sgd_svm` |
-| Kvasir ulcer | `yolov8n-cls.pt`, `efficientnetB2.h5`, `Model.keras`, plus notebooks |
-
-Where a selected folder contains both **WLI** and **SAVE** versions, both are retained. The other model families are available as separate ZIP downloads: browse the [additional-model index](Models/README.md), open a model's folder README, and follow its download and extraction instructions. Several original SVM weights are individually about 5–8 GB, so their archives are split into smaller Release assets.
+The supplied model families and Kvasir artifacts are restored at their original `Models/...` paths wherever individual files fit GitHub's LFS limit. Where a model folder contains both **WLI** and **SAVE** versions, both are retained. Large original weights that exceed the LFS limit remain available through the [model index](Models/README.md) and the corresponding folder notes.
 
 Model formats vary (`.pt`, `.pth`, `.pkl`, `.h5`, `.keras`). Use the notebook in the relevant model folder to see that experiment's preprocessing, labels, and framework. There is no single loader or common input contract for every model.
 
 ## Get the files
 
-Clone the repository with `git clone https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer.git`. GitHub does not include the 11 oversized files in the clone. Download any files you need from the [large-files Release](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/tag/v1.0-large-files) and place them at the paths below. The two installer folders contain direct download links to their installers.
+Install Git LFS before cloning to retrieve the installers, large dependencies, calibration table, video, and supported model weights in their original folders:
 
-| Release asset | Original path in this project |
-| --- | --- |
-| `Classification-App-best.pt` | `Applications/Classification App/Dependency App/best.pt` |
-| `Classification-App-best.pt.encrypted` | `Applications/Classification App/Dependency App/best.pt.encrypted` |
-| `Classification-App-internal-best.pt.encrypted` | `Applications/Classification App/Dependency App/_internal/best.pt.encrypted` |
-| `Classification-App-torch_cpu.dll` | `Applications/Classification App/Dependency App/_internal/torch/lib/torch_cpu.dll` |
-| [Classification installer](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/SAVE_Classification_App_Installer.exe) | `Applications/Classification App/Installer/SAVE_Classification_App_Installer.exe` |
-| `Detection-App-torch_cpu.dll` | `Applications/Detection App/Dependency App/_internal/torch/lib/torch_cpu.dll` |
-| [Detection installer](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/SAVE_Detection_App_Installer.exe) | `Applications/Detection App/Installer/SAVE_Detection_App_Installer.exe` |
-| `SAVE_Demo_Video.mp4` | `Documentation/Video.mp4` |
-| `Endoscopic-Augmented-LR-model.pkl` | `Models/Endoscopic Images/Augumented/LR/logistic_regression_model.pkl` |
-| `Endoscopic-Logistic-Regression-model.pkl` | `Models/Endoscopic Images/Logistic Regression/logistic_regression_model.pkl` |
-| `SRC-SAVE-nor_wli_nbi_table.npy` | `SRC/SAVE/nor_wli_nbi_table.npy` |
+```bash
+git lfs install
+git clone https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer.git
+cd Spectrum-Aided-Vision-Enhancer
+git lfs pull
+```
 
-The Release assets total about 2.3 GB. No Git LFS setup is needed.
+Some original model files exceed GitHub's LFS per-file size limit. Those files remain in the [remaining-models Release](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/tag/v1.1-remaining-models), with download and extraction instructions in [Models/README.md](Models/README.md).
 
 ## Use the applications
 
-On Windows, either download the [classification installer](Applications/Classification%20App/Installer/README.md) or [detection installer](Applications/Detection%20App/Installer/README.md), or download the applicable large dependencies from the table above and start the packaged application from its own `Dependency App` directory:
+On Windows, use the [classification installer](Applications/Classification%20App/Installer/SAVE_Classification_App_Installer.exe) or [detection installer](Applications/Detection%20App/Installer/SAVE_Detection_App_Installer.exe), or retrieve the application dependencies with Git LFS and start the packaged application from its own `Dependency App` directory:
 
 ```powershell
 cd "Applications\Classification App\Dependency App"
@@ -98,4 +79,4 @@ The editable PyQt entry points are [`Classification App/Source Code/App.py`](App
 
 ## Research use and scope
 
-The documentation covers image calibration, SAVE synthesis, and experiments across multiple datasets. This repository preserves the supplied artifacts; it does not include every original training dataset or every trained model. The models and applications have not been independently tested for diagnostic accuracy or clinical use as part of this upload.
+The documentation covers image calibration, SAVE synthesis, and experiments across multiple datasets. This repository preserves the supplied artifacts; it does not include every original training dataset. Oversized model files are preserved in Releases. The models and applications have not been independently tested for diagnostic accuracy or clinical use as part of this upload.

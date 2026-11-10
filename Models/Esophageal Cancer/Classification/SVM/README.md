@@ -1,5 +1,11 @@
 # SVM
 
+Files within the GitHub LFS size limit are now restored in their original locations. The following originals remain in Releases because they exceed the per-file limit:
+
+- Models/Esophageal Cancer/Classification/SVM/svm_model(SAVE).joblib (8129772056 bytes)
+- Models/Esophageal Cancer/Classification/SVM/svm_model(WLI).joblib (7667741574 bytes)
+
+
 This folder points to the remaining files for `Esophageal Cancer/Classification/SVM` from the original SAVE project. The package contains **4 files** (14.71 GiB before compression). It is stored in the [remaining-models Release](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/tag/v1.1-remaining-models) because it was not included in the curated Git tree.
 
 ## Download

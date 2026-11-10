@@ -1,5 +1,11 @@
 # svc_polynomial
 
+Files within the GitHub LFS size limit are now restored in their original locations. The following originals remain in Releases because they exceed the per-file limit:
+
+- Models/Skin Cancer/BCC, SCC, SK, AK/Classification/svc_polynomial/weights/save/polynomial_svm_save_weights.pkl (6016228267 bytes)
+- Models/Skin Cancer/BCC, SCC, SK, AK/Classification/svc_polynomial/weights/wli/polynomial_svm_wli_weights.pkl (5967076087 bytes)
+
+
 This folder points to the remaining files for `Skin Cancer/BCC, SCC, SK, AK/Classification/svc_polynomial` from the original SAVE project. The package contains **4 files** (11.16 GiB before compression). It is stored in the [remaining-models Release](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/tag/v1.1-remaining-models) because it was not included in the curated Git tree.
 
 ## Download
