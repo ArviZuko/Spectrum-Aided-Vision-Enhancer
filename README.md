@@ -68,7 +68,7 @@ Some original model files exceed GitHub's LFS per-file size limit. Those files r
 
 ## Use the applications
 
-On Windows, use the [classification installer](Applications/Classification%20App/Installer/SAVE_Classification_App_Installer.exe) or [detection installer](Applications/Detection%20App/Installer/SAVE_Detection_App_Installer.exe), or retrieve the application dependencies with Git LFS and start the packaged application from its own `Dependency App` directory:
+On Windows, use the [classification installer](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/SAVE_Classification_App_Installer.exe) or [detection installer](https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/SAVE_Detection_App_Installer.exe), or retrieve the application dependencies with Git LFS and start the packaged application from its own `Dependency App` directory:
 
 ```powershell
 cd "Applications\Classification App\Dependency App"
