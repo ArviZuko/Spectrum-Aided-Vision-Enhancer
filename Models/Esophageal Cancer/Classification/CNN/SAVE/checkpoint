@@ -1,0 +1,2 @@
+model_checkpoint_path: "CNN-SAVE weight"
+all_model_checkpoint_paths: "CNN-SAVE weight"

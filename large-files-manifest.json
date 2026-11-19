@@ -1,0 +1,1096 @@
+{
+  "files": [
+    {
+      "path": "Applications/Classification App/Dependency App/_internal/best.pt.encrypted",
+      "size": 112493392,
+      "sha256": "ed7fa8a1dad050c019f38e9d8940188bd12cb6ac70692a5498773df1bbc1a5f1",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/Classification-App-internal-best.pt.encrypted",
+          "size": 112493392,
+          "sha256": "ed7fa8a1dad050c019f38e9d8940188bd12cb6ac70692a5498773df1bbc1a5f1",
+          "name": "Classification-App-internal-best.pt.encrypted"
+        }
+      ]
+    },
+    {
+      "path": "Applications/Classification App/Dependency App/best.pt.encrypted",
+      "size": 112493392,
+      "sha256": "ed7fa8a1dad050c019f38e9d8940188bd12cb6ac70692a5498773df1bbc1a5f1",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/Classification-App-internal-best.pt.encrypted",
+          "size": 112493392,
+          "sha256": "ed7fa8a1dad050c019f38e9d8940188bd12cb6ac70692a5498773df1bbc1a5f1",
+          "name": "Classification-App-internal-best.pt.encrypted"
+        }
+      ]
+    },
+    {
+      "path": "Applications/Classification App/Dependency App/_internal/torch/lib/torch_cpu.dll",
+      "size": 251258368,
+      "sha256": "ca1ce2ea3f0d8d3e31bbac96d1be81aa01313ef1e7c8f6a98f6a28a0b3008bdb",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/Detection-App-torch_cpu.dll",
+          "size": 251258368,
+          "sha256": "ca1ce2ea3f0d8d3e31bbac96d1be81aa01313ef1e7c8f6a98f6a28a0b3008bdb",
+          "name": "Detection-App-torch_cpu.dll"
+        }
+      ]
+    },
+    {
+      "path": "Applications/Detection App/Dependency App/_internal/torch/lib/torch_cpu.dll",
+      "size": 251258368,
+      "sha256": "ca1ce2ea3f0d8d3e31bbac96d1be81aa01313ef1e7c8f6a98f6a28a0b3008bdb",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/Detection-App-torch_cpu.dll",
+          "size": 251258368,
+          "sha256": "ca1ce2ea3f0d8d3e31bbac96d1be81aa01313ef1e7c8f6a98f6a28a0b3008bdb",
+          "name": "Detection-App-torch_cpu.dll"
+        }
+      ]
+    },
+    {
+      "path": "Applications/Classification App/Dependency App/best.pt",
+      "size": 112493361,
+      "sha256": "5939913ceac7868eea49acaaab55a3be939b01e298400b4df695281b7e79847b",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/Classification-App-best.pt",
+          "size": 112493361,
+          "sha256": "5939913ceac7868eea49acaaab55a3be939b01e298400b4df695281b7e79847b",
+          "name": "Classification-App-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Applications/Classification App/Installer/SAVE_Classification_App_Installer.exe",
+      "size": 437506385,
+      "sha256": "4c62df6b67c6fea2698fd1b683e570e83de23267274ae947f86bc0986f536f93",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/SAVE_Classification_App_Installer.exe",
+          "size": 437506385,
+          "sha256": "4c62df6b67c6fea2698fd1b683e570e83de23267274ae947f86bc0986f536f93",
+          "name": "SAVE_Classification_App_Installer.exe"
+        }
+      ]
+    },
+    {
+      "path": "Applications/Detection App/Installer/SAVE_Detection_App_Installer.exe",
+      "size": 231176729,
+      "sha256": "ee164dde934c120d917e3bec0be1e21daf96a2827e4750fb98d9e7a9177b5a8b",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/SAVE_Detection_App_Installer.exe",
+          "size": 231176729,
+          "sha256": "ee164dde934c120d917e3bec0be1e21daf96a2827e4750fb98d9e7a9177b5a8b",
+          "name": "SAVE_Detection_App_Installer.exe"
+        }
+      ]
+    },
+    {
+      "path": "Documentation/Video.mp4",
+      "size": 403772561,
+      "sha256": "e340545aa70d934827c4557f1d25147c84f90f55b7095356aaf7cb66199c548c",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/SAVE_Demo_Video.mp4",
+          "size": 403772561,
+          "sha256": "e340545aa70d934827c4557f1d25147c84f90f55b7095356aaf7cb66199c548c",
+          "name": "SAVE_Demo_Video.mp4"
+        }
+      ]
+    },
+    {
+      "path": "Models/Bladder Cancer/INCEPTIONRESNETV2/SAVE/inceptionresnetv2_best_weights (1).keras",
+      "size": 245194631,
+      "sha256": "acfab8db4a9e29eceeb3b75e49bdaf3e2e19c15daf2fe6098740d6976ca9ee89",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/acfab8db4a9e-inceptionresnetv2_best_weights.1.keras",
+          "size": 245194631,
+          "sha256": "acfab8db4a9e29eceeb3b75e49bdaf3e2e19c15daf2fe6098740d6976ca9ee89",
+          "name": "acfab8db4a9e-inceptionresnetv2_best_weights.1.keras"
+        }
+      ]
+    },
+    {
+      "path": "Models/Bladder Cancer/INCEPTIONRESNETV2/WLI/inceptionresnetv2_best_weights.keras",
+      "size": 245194631,
+      "sha256": "1a3ea307c0b329f9879c76fa1e5543f7f6d00e388001c7801e0cb0da659aeab3",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/1a3ea307c0b3-inceptionresnetv2_best_weights.keras",
+          "size": 245194631,
+          "sha256": "1a3ea307c0b329f9879c76fa1e5543f7f6d00e388001c7801e0cb0da659aeab3",
+          "name": "1a3ea307c0b3-inceptionresnetv2_best_weights.keras"
+        }
+      ]
+    },
+    {
+      "path": "Models/Bladder Cancer/VGG16/SAVE/vgg16_best_weights.keras",
+      "size": 373576401,
+      "sha256": "011aa31d3f044914bcc86de163f3940cbe5f85107044469ef17cca4524d57a60",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/011aa31d3f04-vgg16_best_weights.keras",
+          "size": 373576401,
+          "sha256": "011aa31d3f044914bcc86de163f3940cbe5f85107044469ef17cca4524d57a60",
+          "name": "011aa31d3f04-vgg16_best_weights.keras"
+        }
+      ]
+    },
+    {
+      "path": "Models/Bladder Cancer/VGG16/WLI/vgg16_best_weights.keras",
+      "size": 373576423,
+      "sha256": "eea19a0dc6ffe47069d00a85059540ccfe47ff81722dc2b1523c08700115b01c",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/eea19a0dc6ff-vgg16_best_weights.keras",
+          "size": 373576423,
+          "sha256": "eea19a0dc6ffe47069d00a85059540ccfe47ff81722dc2b1523c08700115b01c",
+          "name": "eea19a0dc6ff-vgg16_best_weights.keras"
+        }
+      ]
+    },
+    {
+      "path": "Models/Endoscopic Images/Augumented/LR/logistic_regression_model.pkl",
+      "size": 137626583,
+      "sha256": "060a972c5160233e19f101da6ffa0a95defbdd7d215b981b5f0a5915dd49fc1f",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/Endoscopic-Augmented-LR-model.pkl",
+          "size": 137626583,
+          "sha256": "060a972c5160233e19f101da6ffa0a95defbdd7d215b981b5f0a5915dd49fc1f",
+          "name": "Endoscopic-Augmented-LR-model.pkl"
+        }
+      ]
+    },
+    {
+      "path": "Models/Endoscopic Images/Logistic Regression/logistic_regression_model.pkl",
+      "size": 137626583,
+      "sha256": "dc3860f304cb6a1a3366207f153274184ca6ddf45b7c385f2355fa98a671d9e9",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/Endoscopic-Logistic-Regression-model.pkl",
+          "size": 137626583,
+          "sha256": "dc3860f304cb6a1a3366207f153274184ca6ddf45b7c385f2355fa98a671d9e9",
+          "name": "Endoscopic-Logistic-Regression-model.pkl"
+        }
+      ]
+    },
+    {
+      "path": "Models/Endoscopic Images/Yolov8/Runs-20241106T120403Z-001.zip",
+      "size": 225597647,
+      "sha256": "cb9e8edb2410f95ddadc9f75760da95db4a2bb1caa194435189b6ed8873072db",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/cb9e8edb2410-Runs-20241106T120403Z-001.zip",
+          "size": 225597647,
+          "sha256": "cb9e8edb2410f95ddadc9f75760da95db4a2bb1caa194435189b6ed8873072db",
+          "name": "cb9e8edb2410-Runs-20241106T120403Z-001.zip"
+        }
+      ]
+    },
+    {
+      "path": "Models/Endoscopic Images/Yolov8/Runs-20241106T120403Z-001/Runs/Results/weights/best.pt",
+      "size": 112534641,
+      "sha256": "5417a6d843e9650c19ef474c82e4f8fd9dfbe489b2b4a57c6b17b3032a31ae8c",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/5417a6d843e9-best.pt",
+          "size": 112534641,
+          "sha256": "5417a6d843e9650c19ef474c82e4f8fd9dfbe489b2b4a57c6b17b3032a31ae8c",
+          "name": "5417a6d843e9-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Endoscopic Images/Yolov8/Runs-20241106T120403Z-001/Runs/Results/weights/last.pt",
+      "size": 112535601,
+      "sha256": "ce4ac68d5e735003463da988775162e53df8f3b3eca9086c13c1a51e60d7f48c",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/ce4ac68d5e73-last.pt",
+          "size": 112535601,
+          "sha256": "ce4ac68d5e735003463da988775162e53df8f3b3eca9086c13c1a51e60d7f48c",
+          "name": "ce4ac68d5e73-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Classification/Yolov8x/SAVE/Train/weights/best.pt",
+      "size": 112491121,
+      "sha256": "04363d6c4bd02e9992bd84f4140e82ad100da883567826744ef74632447f4efd",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/04363d6c4bd0-best.pt",
+          "size": 112491121,
+          "sha256": "04363d6c4bd02e9992bd84f4140e82ad100da883567826744ef74632447f4efd",
+          "name": "04363d6c4bd0-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Classification/Yolov8x/SAVE/Train/weights/last.pt",
+      "size": 112492337,
+      "sha256": "b636200f8b6d86f69a5fa4bd595f9e1986142a5270c8fcc09dabce3e6bd4eff7",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/b636200f8b6d-last.pt",
+          "size": 112492337,
+          "sha256": "b636200f8b6d86f69a5fa4bd595f9e1986142a5270c8fcc09dabce3e6bd4eff7",
+          "name": "b636200f8b6d-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Classification/Yolov8x/WLI/Train/weights/best.pt",
+      "size": 112488369,
+      "sha256": "20381e81a5d84740fb659ece6c6fefd1c3e1bbd9e9cec0d1f16533679de5eb17",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/20381e81a5d8-best.pt",
+          "size": 112488369,
+          "sha256": "20381e81a5d84740fb659ece6c6fefd1c3e1bbd9e9cec0d1f16533679de5eb17",
+          "name": "20381e81a5d8-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Classification/Yolov8x/WLI/Train/weights/last.pt",
+      "size": 112492337,
+      "sha256": "efecb2d718bcb00a3e8b51bff558fef60043615d6fda917e515736583bcb1e25",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/efecb2d718bc-last.pt",
+          "size": 112492337,
+          "sha256": "efecb2d718bcb00a3e8b51bff558fef60043615d6fda917e515736583bcb1e25",
+          "name": "efecb2d718bc-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/RT-DETR/SAVE/Weights/checkpoint-54600/model.safetensors",
+      "size": 171616896,
+      "sha256": "b35bc602a1e4eb876491fcced5b7d9f234e171f62609b73a46667f274e256c7c",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/b35bc602a1e4-model.safetensors",
+          "size": 171616896,
+          "sha256": "b35bc602a1e4eb876491fcced5b7d9f234e171f62609b73a46667f274e256c7c",
+          "name": "b35bc602a1e4-model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/RT-DETR/SAVE/Weights/checkpoint-54600/optimizer.pt",
+      "size": 342364216,
+      "sha256": "02faebbd7500f06d3d2d105f0bd1ea57ae9fa0971b3942aa418e5fe29c078385",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/02faebbd7500-optimizer.pt",
+          "size": 342364216,
+          "sha256": "02faebbd7500f06d3d2d105f0bd1ea57ae9fa0971b3942aa418e5fe29c078385",
+          "name": "02faebbd7500-optimizer.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/RT-DETR/SAVE/Weights/model.safetensors",
+      "size": 171616896,
+      "sha256": "d56aae94bfabad80055dae56dd867a68f59b9262a305b2da95bec3dc007375e2",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/d56aae94bfab-model.safetensors",
+          "size": 171616896,
+          "sha256": "d56aae94bfabad80055dae56dd867a68f59b9262a305b2da95bec3dc007375e2",
+          "name": "d56aae94bfab-model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/RT-DETR/WLI/weights/checkpoint-54600/model.safetensors",
+      "size": 171616896,
+      "sha256": "ff9adc39fd524f0dc6b864f50566b59bf27bc775666867a243e5a79d7412be57",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/ff9adc39fd52-model.safetensors",
+          "size": 171616896,
+          "sha256": "ff9adc39fd524f0dc6b864f50566b59bf27bc775666867a243e5a79d7412be57",
+          "name": "ff9adc39fd52-model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/RT-DETR/WLI/weights/checkpoint-54600/optimizer.pt",
+      "size": 342364216,
+      "sha256": "84ef33c5c1e40c66d5750319b5b3753457077df32051a01baefc0b346935e91a",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/84ef33c5c1e4-optimizer.pt",
+          "size": 342364216,
+          "sha256": "84ef33c5c1e40c66d5750319b5b3753457077df32051a01baefc0b346935e91a",
+          "name": "84ef33c5c1e4-optimizer.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/RT-DETR/WLI/weights/model.safetensors",
+      "size": 171616896,
+      "sha256": "a11ad83e520135ccda746168e26de4ad9d93a0567b52280b80b907f165061fe8",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/a11ad83e5201-model.safetensors",
+          "size": 171616896,
+          "sha256": "a11ad83e520135ccda746168e26de4ad9d93a0567b52280b80b907f165061fe8",
+          "name": "a11ad83e5201-model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOR/SAVE/best_ap.pt",
+      "size": 295922613,
+      "sha256": "00b5fc4c84d6ccdb94ca07173f9798709704350be4f72683629c08e31bc24bf5",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/00b5fc4c84d6-best_ap.pt",
+          "size": 295922613,
+          "sha256": "00b5fc4c84d6ccdb94ca07173f9798709704350be4f72683629c08e31bc24bf5",
+          "name": "00b5fc4c84d6-best_ap.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOR/SAVE/best_overall.pt",
+      "size": 295929650,
+      "sha256": "d5b453e029b8aa8181f59fc0c81111252248de54e5228fd6447ffe2da7db7d52",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/d5b453e029b8-best_overall.pt",
+          "size": 295929650,
+          "sha256": "d5b453e029b8aa8181f59fc0c81111252248de54e5228fd6447ffe2da7db7d52",
+          "name": "d5b453e029b8-best_overall.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOR/SAVE/best_p.pt",
+      "size": 295899612,
+      "sha256": "41f56bde17ec46de82bf73e510a1fe2065cc758dc80d3ced04587657f536d269",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/41f56bde17ec-best_p.pt",
+          "size": 295899612,
+          "sha256": "41f56bde17ec46de82bf73e510a1fe2065cc758dc80d3ced04587657f536d269",
+          "name": "41f56bde17ec-best_p.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOR/SAVE/best_r.pt",
+      "size": 295849628,
+      "sha256": "8d340ed4e61d7c08111a2ee5ec132b477c24bc67a5903e414e6f98e61fdc6661",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/8d340ed4e61d-best_r.pt",
+          "size": 295849628,
+          "sha256": "8d340ed4e61d7c08111a2ee5ec132b477c24bc67a5903e414e6f98e61fdc6661",
+          "name": "8d340ed4e61d-best_r.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOR/SAVE/last.pt",
+      "size": 148076240,
+      "sha256": "c0adf2cc0088fafe5f703048dbdc0cdf12a226f48b06942fa80ee88668f09549",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/c0adf2cc0088-last.pt",
+          "size": 148076240,
+          "sha256": "c0adf2cc0088fafe5f703048dbdc0cdf12a226f48b06942fa80ee88668f09549",
+          "name": "c0adf2cc0088-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOR/WLI/best.pt",
+      "size": 148076240,
+      "sha256": "cf608409fcd57598b4fa69f2421eda60294980b94ddeb5d113bfdf2b88961c09",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/cf608409fcd5-best.pt",
+          "size": 148076240,
+          "sha256": "cf608409fcd57598b4fa69f2421eda60294980b94ddeb5d113bfdf2b88961c09",
+          "name": "cf608409fcd5-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOV4/SAVE/best_yolov4-csp-results.pt",
+      "size": 210884905,
+      "sha256": "18af83aa4e80dc071e501c2d132ce15c0bf48c05e38337f7a551741e1008a6a9",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/18af83aa4e80-best_yolov4-csp-results.pt",
+          "size": 210884905,
+          "sha256": "18af83aa4e80dc071e501c2d132ce15c0bf48c05e38337f7a551741e1008a6a9",
+          "name": "18af83aa4e80-best_yolov4-csp-results.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOV4/SAVE/best_yolov4-csp-results_strip.pt",
+      "size": 105593726,
+      "sha256": "4df2ef903b0527eb16c65b19c80a4e9992a7330bfc9d98184677072ee07ffb58",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/4df2ef903b05-best_yolov4-csp-results_strip.pt",
+          "size": 105593726,
+          "sha256": "4df2ef903b0527eb16c65b19c80a4e9992a7330bfc9d98184677072ee07ffb58",
+          "name": "4df2ef903b05-best_yolov4-csp-results_strip.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOV4/SAVE/last_yolov4-csp-results.pt",
+      "size": 210884905,
+      "sha256": "f49ae8beea020f2b9370c3a2390dacc876a1e33366b293437cc903430f96386b",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/f49ae8beea02-last_yolov4-csp-results.pt",
+          "size": 210884905,
+          "sha256": "f49ae8beea020f2b9370c3a2390dacc876a1e33366b293437cc903430f96386b",
+          "name": "f49ae8beea02-last_yolov4-csp-results.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOV4/SAVE/last_yolov4-csp-results_strip.pt",
+      "size": 105593726,
+      "sha256": "a458e553ace6dcb9ac42ba2031f2f90f9b5452dafaf0eaf5477ab2113529dd30",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/a458e553ace6-last_yolov4-csp-results_strip.pt",
+          "size": 105593726,
+          "sha256": "a458e553ace6dcb9ac42ba2031f2f90f9b5452dafaf0eaf5477ab2113529dd30",
+          "name": "a458e553ace6-last_yolov4-csp-results_strip.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOV4/WLI/best_yolov4-csp-results (1).pt",
+      "size": 421151651,
+      "sha256": "57bca8ff0ed788ad81bd95d85ce740f43dc8a294de29ab3a3d21b8c6414e7c8e",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/57bca8ff0ed7-best_yolov4-csp-results.1.pt",
+          "size": 421151651,
+          "sha256": "57bca8ff0ed788ad81bd95d85ce740f43dc8a294de29ab3a3d21b8c6414e7c8e",
+          "name": "57bca8ff0ed7-best_yolov4-csp-results.1.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOV4/WLI/best_yolov4-csp-results.pt",
+      "size": 421151651,
+      "sha256": "57bca8ff0ed788ad81bd95d85ce740f43dc8a294de29ab3a3d21b8c6414e7c8e",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/57bca8ff0ed7-best_yolov4-csp-results.1.pt",
+          "size": 421151651,
+          "sha256": "57bca8ff0ed788ad81bd95d85ce740f43dc8a294de29ab3a3d21b8c6414e7c8e",
+          "name": "57bca8ff0ed7-best_yolov4-csp-results.1.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOV4/WLI/best_yolov4-csp-results_strip.pt",
+      "size": 105593726,
+      "sha256": "5a36fdfd1ba4c77142436e4a9daf70b746f0bfed30d2c3977cb9f264c541f4dc",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/5a36fdfd1ba4-best_yolov4-csp-results_strip.pt",
+          "size": 105593726,
+          "sha256": "5a36fdfd1ba4c77142436e4a9daf70b746f0bfed30d2c3977cb9f264c541f4dc",
+          "name": "5a36fdfd1ba4-best_yolov4-csp-results_strip.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOV4/WLI/last_yolov4-csp-results.pt",
+      "size": 210884905,
+      "sha256": "b4f083279dd73b9ac4da544adff6ff70ed8aa0d0ea0025d67024e4ac350e70a9",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/b4f083279dd7-last_yolov4-csp-results.pt",
+          "size": 210884905,
+          "sha256": "b4f083279dd73b9ac4da544adff6ff70ed8aa0d0ea0025d67024e4ac350e70a9",
+          "name": "b4f083279dd7-last_yolov4-csp-results.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOV4/WLI/last_yolov4-csp-results_strip.pt",
+      "size": 105593726,
+      "sha256": "aa07e62816bce398d0cc2ac6d12141be5950a5ceb2243cb90105629e826b7aca",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/aa07e62816bc-last_yolov4-csp-results_strip.pt",
+          "size": 105593726,
+          "sha256": "aa07e62816bce398d0cc2ac6d12141be5950a5ceb2243cb90105629e826b7aca",
+          "name": "aa07e62816bc-last_yolov4-csp-results_strip.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOV7/WLI/epoch_499.pt",
+      "size": 298996583,
+      "sha256": "a39ac48c8bb22f38d865d7e5fb5126e0e0b8d652d28138a38813098fc1c9997b",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/a39ac48c8bb2-epoch_499.pt",
+          "size": 298996583,
+          "sha256": "a39ac48c8bb22f38d865d7e5fb5126e0e0b8d652d28138a38813098fc1c9997b",
+          "name": "a39ac48c8bb2-epoch_499.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOv6/SAVE/best_ckpt.pt",
+      "size": 119697594,
+      "sha256": "32c727cbb51e66d3b3211c81f87129e1d0037444652173d65638f8b93288edf4",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/32c727cbb51e-best_ckpt.pt",
+          "size": 119697594,
+          "sha256": "32c727cbb51e66d3b3211c81f87129e1d0037444652173d65638f8b93288edf4",
+          "name": "32c727cbb51e-best_ckpt.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOv6/WLI/best_ckpt.pt",
+      "size": 477859196,
+      "sha256": "a652d19b56424545f4ae49e2146b49e77823115d1c998df9702acf1a63f0610d",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/a652d19b5642-best_ckpt.pt",
+          "size": 477859196,
+          "sha256": "a652d19b56424545f4ae49e2146b49e77823115d1c998df9702acf1a63f0610d",
+          "name": "a652d19b5642-best_ckpt.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YOLOv6/WLI/last_ckpt.pt",
+      "size": 477859196,
+      "sha256": "05a25b9527297c7b0543bfcc536e93a58de3cea73dc0c0cd55a5db92a2f4a1f4",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/05a25b952729-last_ckpt.pt",
+          "size": 477859196,
+          "sha256": "05a25b9527297c7b0543bfcc536e93a58de3cea73dc0c0cd55a5db92a2f4a1f4",
+          "name": "05a25b952729-last_ckpt.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YoloV3/SAVE/best.pt",
+      "size": 504410709,
+      "sha256": "8620ba6192ba8223fc122f5329fcf282febe8e299035826c88c247fe2e2c5214",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/8620ba6192ba-best.pt",
+          "size": 504410709,
+          "sha256": "8620ba6192ba8223fc122f5329fcf282febe8e299035826c88c247fe2e2c5214",
+          "name": "8620ba6192ba-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YoloV3/SAVE/last.pt",
+      "size": 252434170,
+      "sha256": "8705d8b585c1e0d9fa940ee3f1e1ae3a5b2aefbe368b0785705b00ecabd6c57e",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/8705d8b585c1-last.pt",
+          "size": 252434170,
+          "sha256": "8705d8b585c1e0d9fa940ee3f1e1ae3a5b2aefbe368b0785705b00ecabd6c57e",
+          "name": "8705d8b585c1-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YoloV3/WLI/best.pt",
+      "size": 504422997,
+      "sha256": "29194920b683067625c4d6ef70f7035602f795af05576715cf8f01f1b07abf73",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/29194920b683-best.pt",
+          "size": 504422997,
+          "sha256": "29194920b683067625c4d6ef70f7035602f795af05576715cf8f01f1b07abf73",
+          "name": "29194920b683-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/YoloV3/WLI/last.pt",
+      "size": 504451797,
+      "sha256": "1dd25dc7967723ada1e2e6fe5c96274abde2ede640b4da83eee0059834a59039",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/1dd25dc79677-last.pt",
+          "size": 504451797,
+          "sha256": "1dd25dc7967723ada1e2e6fe5c96274abde2ede640b4da83eee0059834a59039",
+          "name": "1dd25dc79677-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/Yolov9/FINAL_WLI/weights/best.pt",
+      "size": 204693158,
+      "sha256": "793502519ef8b1c6cd404257c29ee62008b237568edc8d20ce619c398401d6b9",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/793502519ef8-best.pt",
+          "size": 204693158,
+          "sha256": "793502519ef8b1c6cd404257c29ee62008b237568edc8d20ce619c398401d6b9",
+          "name": "793502519ef8-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/Yolov9/WLI/weights/best.pt",
+      "size": 204693158,
+      "sha256": "793502519ef8b1c6cd404257c29ee62008b237568edc8d20ce619c398401d6b9",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/793502519ef8-best.pt",
+          "size": 204693158,
+          "sha256": "793502519ef8b1c6cd404257c29ee62008b237568edc8d20ce619c398401d6b9",
+          "name": "793502519ef8-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/Yolov9/FINAL_WLI/weights/last.pt",
+      "size": 204693158,
+      "sha256": "ee35a0059ea1eeb6445b5c27bb45c13fb5b234e0cafa8681015108204051c1ed",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/ee35a0059ea1-last.pt",
+          "size": 204693158,
+          "sha256": "ee35a0059ea1eeb6445b5c27bb45c13fb5b234e0cafa8681015108204051c1ed",
+          "name": "ee35a0059ea1-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/Yolov9/WLI/weights/last.pt",
+      "size": 204693158,
+      "sha256": "ee35a0059ea1eeb6445b5c27bb45c13fb5b234e0cafa8681015108204051c1ed",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/ee35a0059ea1-last.pt",
+          "size": 204693158,
+          "sha256": "ee35a0059ea1eeb6445b5c27bb45c13fb5b234e0cafa8681015108204051c1ed",
+          "name": "ee35a0059ea1-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/Yolov9/Final_SAVE_YOLO/weights/best.pt",
+      "size": 204693158,
+      "sha256": "e7ed16f3cc4aff7d12641356cf0c55a7719070b12fdbe426dc35deaf2a97d278",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/e7ed16f3cc4a-best.pt",
+          "size": 204693158,
+          "sha256": "e7ed16f3cc4aff7d12641356cf0c55a7719070b12fdbe426dc35deaf2a97d278",
+          "name": "e7ed16f3cc4a-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/Yolov9/SAVE/weights/best.pt",
+      "size": 204693158,
+      "sha256": "e7ed16f3cc4aff7d12641356cf0c55a7719070b12fdbe426dc35deaf2a97d278",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/e7ed16f3cc4a-best.pt",
+          "size": 204693158,
+          "sha256": "e7ed16f3cc4aff7d12641356cf0c55a7719070b12fdbe426dc35deaf2a97d278",
+          "name": "e7ed16f3cc4a-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/Yolov9/Final_SAVE_YOLO/weights/last.pt",
+      "size": 204693158,
+      "sha256": "9fc78e4cf915d6f40520e78fd5ab6c731c875e141c6b9744c2a067600b9174ae",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/9fc78e4cf915-last.pt",
+          "size": 204693158,
+          "sha256": "9fc78e4cf915d6f40520e78fd5ab6c731c875e141c6b9744c2a067600b9174ae",
+          "name": "9fc78e4cf915-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Esophageal Cancer/Detection/Yolov9/SAVE/weights/last.pt",
+      "size": 204693158,
+      "sha256": "9fc78e4cf915d6f40520e78fd5ab6c731c875e141c6b9744c2a067600b9174ae",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/9fc78e4cf915-last.pt",
+          "size": 204693158,
+          "sha256": "9fc78e4cf915d6f40520e78fd5ab6c731c875e141c6b9744c2a067600b9174ae",
+          "name": "9fc78e4cf915-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Kvasir/Models/Ulcer/EFFB7.weights.h5",
+      "size": 266244936,
+      "sha256": "a4e4cca0140254f9870c86e7dbd08942c8279048ba3de6a1d41de4258ce283a4",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/a4e4cca01402-EFFB7.weights.h5",
+          "size": 266244936,
+          "sha256": "a4e4cca0140254f9870c86e7dbd08942c8279048ba3de6a1d41de4258ce283a4",
+          "name": "a4e4cca01402-EFFB7.weights.h5"
+        }
+      ]
+    },
+    {
+      "path": "Models/Kvasir/Models/Ulcer/ResNet101.weights.h5",
+      "size": 177853024,
+      "sha256": "e9923f30744cd767119062b99802913f43eb675ff105f1b95d671169e13a302d",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/e9923f30744c-ResNet101.weights.h5",
+          "size": 177853024,
+          "sha256": "e9923f30744cd767119062b99802913f43eb675ff105f1b95d671169e13a302d",
+          "name": "e9923f30744c-ResNet101.weights.h5"
+        }
+      ]
+    },
+    {
+      "path": "Models/Kvasir/Models/Ulcer/ResNet50V2_best_model.keras",
+      "size": 120167610,
+      "sha256": "cf28e2739d11183b0e4b716d569ece131644692ed2ff9318031f66c8fdc357cc",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/cf28e2739d11-ResNet50V2_best_model.keras",
+          "size": 120167610,
+          "sha256": "cf28e2739d11183b0e4b716d569ece131644692ed2ff9318031f66c8fdc357cc",
+          "name": "cf28e2739d11-ResNet50V2_best_model.keras"
+        }
+      ]
+    },
+    {
+      "path": "Models/Kvasir/Models/Ulcer/ResNet50V2_final_model.keras",
+      "size": 120167660,
+      "sha256": "261705da01fa6f1ead880a5355a85de7bf08c628ab4a6d8ab98d5f7a5bbd9650",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/261705da01fa-ResNet50V2_final_model.keras",
+          "size": 120167660,
+          "sha256": "261705da01fa6f1ead880a5355a85de7bf08c628ab4a6d8ab98d5f7a5bbd9650",
+          "name": "261705da01fa-ResNet50V2_final_model.keras"
+        }
+      ]
+    },
+    {
+      "path": "Models/Kvasir/Models/Ulcer/ResNet_model.keras",
+      "size": 295838289,
+      "sha256": "8b324df9e4a4fff452edaaa4bd7b47bbbbb6c3afab6647a018843dedec5a8519",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/8b324df9e4a4-ResNet_model.keras",
+          "size": 295838289,
+          "sha256": "8b324df9e4a4fff452edaaa4bd7b47bbbbb6c3afab6647a018843dedec5a8519",
+          "name": "8b324df9e4a4-ResNet_model.keras"
+        }
+      ]
+    },
+    {
+      "path": "Models/Kvasir/Models/Ulcer/best_alexnet_model.keras",
+      "size": 561225838,
+      "sha256": "2575922e759a4e8aef4311ec534528df9d7a62b7a37f8167c5019dbe9daa0c22",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/2575922e759a-best_alexnet_model.keras",
+          "size": 561225838,
+          "sha256": "2575922e759a4e8aef4311ec534528df9d7a62b7a37f8167c5019dbe9daa0c22",
+          "name": "2575922e759a-best_alexnet_model.keras"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/ALM, MIS, SSM/Detection/Faster R-CNN/SAVE/faster_rcnn_model.pth",
+      "size": 165791762,
+      "sha256": "0d93d4aa4538a99caf8e62a344083118aa7a7923cf59d8a4383f39ab2ffb13fe",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/0d93d4aa4538-faster_rcnn_model.pth",
+          "size": 165791762,
+          "sha256": "0d93d4aa4538a99caf8e62a344083118aa7a7923cf59d8a4383f39ab2ffb13fe",
+          "name": "0d93d4aa4538-faster_rcnn_model.pth"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/ALM, MIS, SSM/Detection/Faster R-CNN/WLI/MelanomaFasterRCNNWLI.ipynb",
+      "size": 178733594,
+      "sha256": "beff174abf421049bf59c8fe65e9a08cfaa9acf0a3238ca4042cb70d21741348",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/beff174abf42-MelanomaFasterRCNNWLI.ipynb",
+          "size": 178733594,
+          "sha256": "beff174abf421049bf59c8fe65e9a08cfaa9acf0a3238ca4042cb70d21741348",
+          "name": "beff174abf42-MelanomaFasterRCNNWLI.ipynb"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/ALM, MIS, SSM/Detection/Faster R-CNN/WLI/faster_rcnn_model (1).pth",
+      "size": 165791762,
+      "sha256": "db57ca5849b777fb5bba920efbd24c9960c3e1e616db9b42473c79b305ea939e",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/db57ca5849b7-faster_rcnn_model.1.pth",
+          "size": 165791762,
+          "sha256": "db57ca5849b777fb5bba920efbd24c9960c3e1e616db9b42473c79b305ea939e",
+          "name": "db57ca5849b7-faster_rcnn_model.1.pth"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/ALM, MIS, SSM/Detection/Scaled YOLOv4/SAVE/best_yolov4-csp-results.pt",
+      "size": 420814371,
+      "sha256": "03c593582699a77109eca31b758e5fb7b465921b8e09c26f34888907a6a62504",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/03c593582699-best_yolov4-csp-results.pt",
+          "size": 420814371,
+          "sha256": "03c593582699a77109eca31b758e5fb7b465921b8e09c26f34888907a6a62504",
+          "name": "03c593582699-best_yolov4-csp-results.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/ALM, MIS, SSM/Detection/Scaled YOLOv4/WLI/best_yolov4-csp-results.pt",
+      "size": 420853923,
+      "sha256": "396fc3eca358b2a90d1904f0e46da398e6340aa87c969ff158155fbebb54f8ba",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/396fc3eca358-best_yolov4-csp-results.pt",
+          "size": 420853923,
+          "sha256": "396fc3eca358b2a90d1904f0e46da398e6340aa87c969ff158155fbebb54f8ba",
+          "name": "396fc3eca358-best_yolov4-csp-results.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/Acrodon/RTDETR/SAVE/SC_SAVE-finetune/model.safetensors",
+      "size": 171551120,
+      "sha256": "8ac0016e811b823a67483247b91495419b6cddcb03ae8c2f57a57bb0951ba29b",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/8ac0016e811b-model.safetensors",
+          "size": 171551120,
+          "sha256": "8ac0016e811b823a67483247b91495419b6cddcb03ae8c2f57a57bb0951ba29b",
+          "name": "8ac0016e811b-model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/Acrodon/RTDETR/SAVE/SC_SAVE-finetune/optimizer.pt",
+      "size": 342233144,
+      "sha256": "67123f8bf53007929d6eb439c107be6290ec2cae6219f42b13a0500b33a1edf4",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/67123f8bf530-optimizer.pt",
+          "size": 342233144,
+          "sha256": "67123f8bf53007929d6eb439c107be6290ec2cae6219f42b13a0500b33a1edf4",
+          "name": "67123f8bf530-optimizer.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/Acrodon/RTDETR/WLI/SC_3Classes-finetune/model.safetensors",
+      "size": 171551120,
+      "sha256": "4be160e99f6bbe72bb71beac57cf7f0a087a5e997549e957c78c7824fc26982a",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/4be160e99f6b-model.safetensors",
+          "size": 171551120,
+          "sha256": "4be160e99f6bbe72bb71beac57cf7f0a087a5e997549e957c78c7824fc26982a",
+          "name": "4be160e99f6b-model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/Acrodon/RTDETR/WLI/SC_3Classes-finetune/optimizer.pt",
+      "size": 342233144,
+      "sha256": "07732f4ac6b2432185dafeb23142868fd101849832395290a33c5f2acea9d6ed",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/07732f4ac6b2-optimizer.pt",
+          "size": 342233144,
+          "sha256": "07732f4ac6b2432185dafeb23142868fd101849832395290a33c5f2acea9d6ed",
+          "name": "07732f4ac6b2-optimizer.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/Acrodon/YoloV9/SAVE/train/weights/best.pt",
+      "size": 204643878,
+      "sha256": "0cf6db040753f0966f41efe78f93a47a2f74af480bde23999199c6a0ba8c9c08",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/0cf6db040753-best.pt",
+          "size": 204643878,
+          "sha256": "0cf6db040753f0966f41efe78f93a47a2f74af480bde23999199c6a0ba8c9c08",
+          "name": "0cf6db040753-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/Acrodon/YoloV9/SAVE/train/weights/last.pt",
+      "size": 204643878,
+      "sha256": "7d873915078c0574345d07c1871ba37a799473b23a6184a9cac85e0358306cf7",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/7d873915078c-last.pt",
+          "size": 204643878,
+          "sha256": "7d873915078c0574345d07c1871ba37a799473b23a6184a9cac85e0358306cf7",
+          "name": "7d873915078c-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/Acrodon/YoloV9/WLI/train/weights/best.pt",
+      "size": 204643878,
+      "sha256": "5e872874407ccd0cde6343605fc6927424d9c46246325f60a67cb401a1a5e8d9",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/5e872874407c-best.pt",
+          "size": 204643878,
+          "sha256": "5e872874407ccd0cde6343605fc6927424d9c46246325f60a67cb401a1a5e8d9",
+          "name": "5e872874407c-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/Acrodon/YoloV9/WLI/train/weights/last.pt",
+      "size": 204643878,
+      "sha256": "18dd55d42c5849853765529c21606806d3c8ba5024bf180872cde9242497b9a6",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/18dd55d42c58-last.pt",
+          "size": 204643878,
+          "sha256": "18dd55d42c5849853765529c21606806d3c8ba5024bf180872cde9242497b9a6",
+          "name": "18dd55d42c58-last.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/BCC, SCC, SK, AK/Classification/resnet/weights/save/resnet_save_weights.data-00000-of-00001",
+      "size": 108608379,
+      "sha256": "234bf675bc7362b66efe95b11d084870a8ae597c486d944173f119ab0c9ce994",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/234bf675bc73-resnet_save_weights.data-00000-of-00001",
+          "size": 108608379,
+          "sha256": "234bf675bc7362b66efe95b11d084870a8ae597c486d944173f119ab0c9ce994",
+          "name": "234bf675bc73-resnet_save_weights.data-00000-of-00001"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/BCC, SCC, SK, AK/Classification/resnet/weights/wli/resnet_wli_weights.data-00000-of-00001",
+      "size": 108608379,
+      "sha256": "e4e7d36cdfb323ffe071ee44094d362b331dcbe68781a7d0a6310fa3c1cf8edf",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/e4e7d36cdfb3-resnet_wli_weights.data-00000-of-00001",
+          "size": 108608379,
+          "sha256": "e4e7d36cdfb323ffe071ee44094d362b331dcbe68781a7d0a6310fa3c1cf8edf",
+          "name": "e4e7d36cdfb3-resnet_wli_weights.data-00000-of-00001"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/BCC, SCC, SK, AK/Classification/yolov8/weights/save/best.pt",
+      "size": 112491121,
+      "sha256": "60a44701da41a7b20ead4f9459e59af6f50a695059c2969b5034d7f6ef739d8c",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/60a44701da41-best.pt",
+          "size": 112491121,
+          "sha256": "60a44701da41a7b20ead4f9459e59af6f50a695059c2969b5034d7f6ef739d8c",
+          "name": "60a44701da41-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/BCC, SCC, SK, AK/Classification/yolov8/weights/wli/best.pt",
+      "size": 112492337,
+      "sha256": "09d28c99779fcb763bd56c4a4019627eac3a7c6ec1144ce4855afbc316feb8ea",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/09d28c99779f-best.pt",
+          "size": 112492337,
+          "sha256": "09d28c99779fcb763bd56c4a4019627eac3a7c6ec1144ce4855afbc316feb8ea",
+          "name": "09d28c99779f-best.pt"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/BCC, SCC, SK, AK/Detection/SSD/save/model_epoch_20.pth",
+      "size": 142594446,
+      "sha256": "29382ccd9bf73254a63f22b917ff2e86eb1435e4046ce5ee20796c55bc96711b",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/29382ccd9bf7-model_epoch_20.pth",
+          "size": 142594446,
+          "sha256": "29382ccd9bf73254a63f22b917ff2e86eb1435e4046ce5ee20796c55bc96711b",
+          "name": "29382ccd9bf7-model_epoch_20.pth"
+        }
+      ]
+    },
+    {
+      "path": "Models/Skin Cancer/BCC, SCC, SK, AK/Detection/SSD/wli/model_epoch_20.pth",
+      "size": 142594446,
+      "sha256": "708f35c21a31391140c3ed92b73dd9a27f6a0f997d4d11db385f3323e40df683",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/large-files-no-lfs/708f35c21a31-model_epoch_20.pth",
+          "size": 142594446,
+          "sha256": "708f35c21a31391140c3ed92b73dd9a27f6a0f997d4d11db385f3323e40df683",
+          "name": "708f35c21a31-model_epoch_20.pth"
+        }
+      ]
+    },
+    {
+      "path": "SRC/SAVE/nor_wli_nbi_table.npy",
+      "size": 134217856,
+      "sha256": "a397da57889986a40e18e2c38a7d49c14ffbe07d4a9e0a2238cb25d6f89941bf",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Spectrum-Aided-Vision-Enhancer/releases/download/v1.0-large-files/SRC-SAVE-nor_wli_nbi_table.npy",
+          "size": 134217856,
+          "sha256": "a397da57889986a40e18e2c38a7d49c14ffbe07d4a9e0a2238cb25d6f89941bf",
+          "name": "SRC-SAVE-nor_wli_nbi_table.npy"
+        }
+      ]
+    }
+  ]
+}
