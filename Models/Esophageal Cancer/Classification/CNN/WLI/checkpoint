@@ -1,0 +1,2 @@
+model_checkpoint_path: "EC_Classification"
+all_model_checkpoint_paths: "EC_Classification"

@@ -1,0 +1,2 @@
+model_checkpoint_path: "mobilevnetv2_save_weights"
+all_model_checkpoint_paths: "mobilevnetv2_save_weights"
